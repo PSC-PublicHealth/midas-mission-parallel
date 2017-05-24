@@ -89,6 +89,9 @@ dependencies:
 - r-stringr=1.1.0=r3.3.2_0
 - r-survival=2.40_1=r3.3.2_0
 - r-uuid=0.1_2=r3.3.2_0
+- r-doparallel
+- r-data.table
+- r-bit64
 - readline=6.2=2
 - rpy2=2.8.5=py36r3.3.2_2
 - setuptools=27.2.0=py36_0
