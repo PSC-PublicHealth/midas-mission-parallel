@@ -108,6 +108,7 @@ dependencies:
 - xz=5.2.2=1
 - zeromq=4.1.3=0
 - zlib=1.2.8=3
+- ipyparallel
 - pip:
   - ipython-autotime==0.1
   - ipython-genutils==0.2.0
@@ -116,5 +117,5 @@ dependencies:
   - jupyter-core==4.3.0
   - prompt-toolkit==1.0.14
   - sh==1.12.13
-prefix: ~/.conda/envs//mission
+prefix: ~/.conda/envs/mission
 
