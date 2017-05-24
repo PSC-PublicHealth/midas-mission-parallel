@@ -20,3 +20,6 @@ ml load anaconda/4.3.1
 ml load envs
 source activate conda.python3.mission
 
+3.) Unzip the example data
+
+unzip dat.zip
