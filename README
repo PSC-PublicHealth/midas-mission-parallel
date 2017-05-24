@@ -1,5 +1,22 @@
 This tutorial will use R and python3 environments available through anaconda.
 
-In order to keep eveything nice and contained we'll use anacondas environments feature.
+In order to keep eveything contained we'll use anaconda's environment feature.
 
-Note that this tutorial may be completed on a local machine or on the olympus compute cluster.
+This tutorial may be completed on a local machine or on the olympus compute cluster.
+
+1.) Clone the git repository to your local machine or to the olympus cluster
+
+git clone git@github.com:PSC-PublicHealth/midas-mission-parallel.git
+cd midas-mission-parallel
+
+2.) Create your anaconda environment, install all dependencies and activate the environment
+
+conda env create -f mission-env.yml -n mission
+source activate mission
+
+ALTERNATIVE (Olympus only):
+
+ml load anaconda/4.3.1
+ml load envs
+source activate conda.python3.mission
+
